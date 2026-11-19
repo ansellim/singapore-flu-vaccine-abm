@@ -1,0 +1,8 @@
+{
+  "source": "https://raw.githubusercontent.com/kieshaprem/synthetic-contact-matrices/7fcb6985dbc3070cdcb3e5daa5f6b26ce2605d69/generate_synthetic_matrices/output/syntheticmatrices/contact_home.rdata",
+  "repository": "https://github.com/kieshaprem/synthetic-contact-matrices",
+  "commit": "7fcb6985dbc3070cdcb3e5daa5f6b26ce2605d69",
+  "article": "Prem et al. 2021, PLoS Comput Biol, doi:10.1371/journal.pcbi.1009098, republished with corrections 2024 (doi:10.1371/journal.pcbi.1012454)",
+  "retrieval_date": "2026-11-19",
+  "sha256": "9f7dae851a3c131c830d2304366578a9b9534028077b6072b14ecbf37882e967"
+}

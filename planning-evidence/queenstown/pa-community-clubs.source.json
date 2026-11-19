@@ -1,0 +1,10 @@
+{
+  "source": "https://api-open.data.gov.sg/v1/public/api/datasets/d_f706de1427279e61fe41e89e24d440fa/poll-download",
+  "dataset_page": "https://data.gov.sg/datasets/d_f706de1427279e61fe41e89e24d440fa/view",
+  "title": "Community Clubs",
+  "retrieval_date": "2026-11-19",
+  "features": 125,
+  "sha256": "d6acbfc863db3b9adb7fed423921acdf87c5a79b4ec60114d2dcbcbd140ecfa6",
+  "purpose": "Community club point locations: community mixing venues.",
+  "download_method": "GET source -> data.url (signed, expires in one hour) -> file stored unchanged"
+}

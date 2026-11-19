@@ -1,0 +1,10 @@
+{
+  "source": "https://api-open.data.gov.sg/v1/public/api/datasets/d_11edd0117280c5776651d7891114c88c/poll-download",
+  "dataset_page": "https://data.gov.sg/datasets/d_11edd0117280c5776651d7891114c88c/view",
+  "title": "List of Supermarket Licences",
+  "retrieval_date": "2026-11-19",
+  "rows": 478,
+  "sha256": "a588eab004ba927adafc20949749ff47c1eff94833ad0a5b8c023d449788d54d",
+  "purpose": "NEA supermarket licences with postal codes; geocoded for supermarket locations (community mixing venues).",
+  "download_method": "GET source -> data.url (signed, expires in one hour) -> file stored unchanged"
+}

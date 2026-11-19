@@ -1,0 +1,16 @@
+{
+  "source": "derived",
+  "derived_from": [
+    {
+      "file": "mp2019-subzone-boundary-nosea.geojson",
+      "sha256": "77e30aa02b1784b649d9b6f23e3b2ebb825af787de554f3a3fb76bbee3013c42"
+    }
+  ],
+  "script": "model/scripts/data/build_queenstown_geography.R",
+  "crs": "EPSG:3414 (SVY21)",
+  "retrieval_date": "2026-11-19",
+  "method": "Features with PLN_AREA_N == 'QUEENSTOWN' from the MP2019 subzone layer (columns SUBZONE_N, SUBZONE_C, PLN_AREA_N, PLN_AREA_C, REGION_N), Z dropped, made valid, transformed to EPSG:3414; area_m2 computed in SVY21.",
+  "sha256": "eb58e10ee356d67db9c26b461b98a016c4112bdfcde0c6d088b0af2d26c646ad",
+  "purpose": "Queenstown subzone polygons; join keys to Census 2020 subzone tables (age-sex-2020.json).",
+  "features": 15
+}

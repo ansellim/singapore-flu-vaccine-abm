@@ -1,0 +1,9 @@
+{
+  "source": "https://data.gov.sg/api/action/datastore_search?resource_id=d_465c5bd4a9adae523f9577371daf5e24&limit=1000",
+  "dataset_page": "https://data.gov.sg/datasets/d_465c5bd4a9adae523f9577371daf5e24/view",
+  "title": "Resident Labour Force Participation Rate Aged 15 Years And Over By Age And Sex, End June, Annual",
+  "retrieval_date": "2026-11-19",
+  "rows": 51,
+  "sha256": "56b762286cb1eb6c0849ba339005640abaffd2d2f7f384f1050407142494fbea",
+  "purpose": "Planning feasibility check; no model or analysis run."
+}

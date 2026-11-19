@@ -1,0 +1,9 @@
+{
+  "source": "https://data.gov.sg/api/action/datastore_search?resource_id=d_9e035622439b5d25a63d7ea0699c9451&limit=10000",
+  "dataset_page": "https://data.gov.sg/datasets/d_9e035622439b5d25a63d7ea0699c9451/view",
+  "title": "Resident Population by Planning Area/Subzone of Residence, Age Group and Floor Area of Residence (Census of Population 2020)",
+  "retrieval_date": "2026-11-19",
+  "rows": 388,
+  "sha256": "f83efab379ea5519feea81287465559a085de4ae3c65c1bb9281dec03b31258e",
+  "purpose": "Resident population by subzone, age group and floor area of residence: links age structure to dwelling size."
+}

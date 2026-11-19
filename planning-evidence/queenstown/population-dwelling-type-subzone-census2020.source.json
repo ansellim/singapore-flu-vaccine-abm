@@ -1,0 +1,9 @@
+{
+  "source": "https://data.gov.sg/api/action/datastore_search?resource_id=d_7f243956483d5901f237e6f87b096636&limit=10000",
+  "dataset_page": "https://data.gov.sg/datasets/d_7f243956483d5901f237e6f87b096636/view",
+  "title": "Resident Population by Planning Area/Subzone of Residence and Type of Dwelling (Census of Population 2020)",
+  "retrieval_date": "2026-11-19",
+  "rows": 388,
+  "sha256": "e00dcf8b5dc72a68edfe269ceb5d48dd049d045ce6bba465a99a2f3c07db7bb7",
+  "purpose": "Resident population by subzone and type of dwelling: allocates persons to HDB versus private housing per subzone."
+}

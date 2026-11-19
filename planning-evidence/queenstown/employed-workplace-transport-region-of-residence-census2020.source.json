@@ -1,0 +1,9 @@
+{
+  "source": "https://data.gov.sg/api/action/datastore_search?resource_id=d_5b38192e9c6f8d2c5f38c70939c76e71&limit=10000",
+  "dataset_page": "https://data.gov.sg/datasets/d_5b38192e9c6f8d2c5f38c70939c76e71/view",
+  "title": "Employed Residents Aged 15 Years and Over by Planning Area of Workplace, Usual Mode of Transport to Work and Planning Region of Residence (Census of Population 2020)",
+  "retrieval_date": "2026-11-19",
+  "rows": 48,
+  "sha256": "b8a551600d8d02239051d6186cf840178efa96080d2233234bf4eaa7ee6262bd",
+  "purpose": "Workers in Queenstown by planning region of residence: the only public origin-destination breakdown (region, not planning area)."
+}

@@ -1,0 +1,10 @@
+{
+  "source": "https://api-open.data.gov.sg/v1/public/api/datasets/d_90d86daa5bfaa371668b84fa5f01424f/poll-download",
+  "dataset_page": "https://data.gov.sg/datasets/d_90d86daa5bfaa371668b84fa5f01424f/view",
+  "title": "Master Plan 2019 Land Use layer",
+  "retrieval_date": "2026-11-19",
+  "features": 113213,
+  "sha256": "916d45da449b8299162116f21d8f149d0da1f92d0188ff2946492ffc7ef42677",
+  "purpose": "MP2019 land-use polygons (island-wide); clipped to Queenstown for workplace and amenity zoning.",
+  "download_method": "GET source -> data.url (signed, expires in one hour) -> file stored unchanged"
+}

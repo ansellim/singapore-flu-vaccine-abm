@@ -1,0 +1,9 @@
+{
+  "source": "https://data.gov.sg/api/action/datastore_search?resource_id=d_cadd4d2df56ac4187847648f44ffcb9c&limit=1000",
+  "dataset_page": "https://data.gov.sg/datasets/d_cadd4d2df56ac4187847648f44ffcb9c/view",
+  "title": "Married Couples in Resident Households by Age Group of Husband and Wife, and Ethnic Group of Couple (Census of Population 2020)",
+  "retrieval_date": "2026-11-19",
+  "rows": 10,
+  "sha256": "f67b18618c2ed56fe42668ce85f1b0df58406fd82fe87279e503e9c102c94113",
+  "purpose": "Planning feasibility check; no model or analysis run."
+}

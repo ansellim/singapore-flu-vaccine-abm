@@ -1,0 +1,9 @@
+{
+  "source": "https://data.gov.sg/api/action/datastore_search?resource_id=d_ce1804c655566f5089fff370bec37c2d&limit=10000",
+  "dataset_page": "https://data.gov.sg/datasets/d_ce1804c655566f5089fff370bec37c2d/view",
+  "title": "Resident Households by Planning Area of Residence and Household Structure (Census of Population 2020)",
+  "retrieval_date": "2026-11-19",
+  "rows": 32,
+  "sha256": "ebecf3f886bf56741abb49bff425957fe2a000183da1c62e33b5927eb2af3bc8",
+  "purpose": "Queenstown household structure (family nuclei, generations) for household synthesis."
+}

@@ -1,0 +1,9 @@
+{
+  "source": "https://data.gov.sg/api/action/datastore_search?resource_id=d_8ec1d0f5a86e5492f98e8598d6d258d1&limit=10000",
+  "dataset_page": "https://data.gov.sg/datasets/d_8ec1d0f5a86e5492f98e8598d6d258d1/view",
+  "title": "Employed Residents Aged 15 Years and Over by Planning Area of Workplace and Travelling Time to Work (Census of Population 2020)",
+  "retrieval_date": "2026-11-19",
+  "rows": 47,
+  "sha256": "d1dea1d477654fde9b11111e94fd7bc36d17cbd64405781c1ac1d246c2cbdad8",
+  "purpose": "Employed residents working in Queenstown by travelling time to work."
+}

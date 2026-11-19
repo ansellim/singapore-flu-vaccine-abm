@@ -1,0 +1,24 @@
+{
+  "source": "derived",
+  "derived_from": [
+    {
+      "file": "hdb-blocks-geocoded-derived.csv",
+      "sha256": "4b0bc8fdf87995575d8601d95cef1fd4fec530b87d454e41b785c817398e2882"
+    },
+    {
+      "file": "mp2019-planning-area-boundary-nosea.geojson",
+      "sha256": "f23856251b467089f788d0fff72ef5a38e753f21aa69b4352401d7ed50d380cc"
+    },
+    {
+      "file": "mp2019-subzone-boundary-nosea.geojson",
+      "sha256": "77e30aa02b1784b649d9b6f23e3b2ebb825af787de554f3a3fb76bbee3013c42"
+    }
+  ],
+  "script": "model/scripts/data/build_queenstown_geography.R",
+  "crs": "EPSG:3414 (SVY21)",
+  "retrieval_date": "2026-11-19",
+  "method": "From hdb-blocks-geocoded-derived.csv (901 blocks in candidate HDB towns): kept residential == 'Y' and match_quality exact or ambiguous; points at OneMap SVY21 X/Y; kept points within the Queenstown planning-area polygon; subzone from point-in-polygon with MP2019 subzones. x, y are SVY21 metres. All HDB Property Information columns kept unchanged (dwelling-unit counts as integers).",
+  "sha256": "20cc55b05df6928a31ef268a0b636edce1fd2d46a2a0c8ef7914583011e03537",
+  "purpose": "Household locations and dwelling units by flat type for Queenstown.",
+  "rows": 242
+}

@@ -1,0 +1,20 @@
+{
+  "source": "derived",
+  "derived_from": [
+    {
+      "file": "hdb-property-information.csv",
+      "sha256": "d528ea2d6fc3f57ab4c8199ed15ea5eaac0109fe659e09ef91910dfe417af2eb"
+    }
+  ],
+  "script": "model/scripts/data/geocode_queenstown_inputs.py",
+  "geocoder": "https://www.onemap.gov.sg/api/common/elastic/search?searchVal=<query>&returnGeom=Y&getAddrDetails=Y&pageNum=1",
+  "retrieval_date": "2026-11-19",
+  "rows": 901,
+  "match_quality_counts": {
+    "exact": 825,
+    "ambiguous": 76
+  },
+  "method": "Rows of hdb-property-information.csv with bldg_contract_town in ['BM', 'BT', 'CL', 'QT'] and residential == 'Y', unchanged, plus OneMap geocode columns. Query '<blk_no> <street>'; a result matches when BLK_NO equals blk_no and ROAD_NAME equals street after expanding HDB abbreviations (ABBREV table in the script). exact: all matches within 1 m; ambiguous: matches more than 1 m apart, first used; unmatched: no match. Coordinates are SVY21 (EPSG:3414) X/Y and WGS84 lat/long from OneMap.",
+  "sha256": "4b0bc8fdf87995575d8601d95cef1fd4fec530b87d454e41b785c817398e2882",
+  "purpose": "Candidate HDB block locations; clipped to the Queenstown planning area by build_queenstown_geography.R."
+}

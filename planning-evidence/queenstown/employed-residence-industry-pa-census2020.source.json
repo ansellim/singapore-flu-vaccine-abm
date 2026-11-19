@@ -1,0 +1,9 @@
+{
+  "source": "https://data.gov.sg/api/action/datastore_search?resource_id=d_a9b684696b39023c4b12f13e57aa2dfd&limit=10000",
+  "dataset_page": "https://data.gov.sg/datasets/d_a9b684696b39023c4b12f13e57aa2dfd/view",
+  "title": "Employed Residents Aged 15 Years and Over by Planning Area of Residence and Industry (Census of Population 2020)",
+  "retrieval_date": "2026-11-19",
+  "rows": 32,
+  "sha256": "a4cd5d2f78b6a6eb29993c73675d21ee646629dbc226a90e5dcbedfc2d8a7105",
+  "purpose": "Employed Queenstown residents by industry: workplace type mix (e.g. health and social services)."
+}

@@ -1,0 +1,91 @@
+subzone,dwelling,residents
+Commonwealth,condo,30
+Commonwealth,hdb_1_2room,1600
+Commonwealth,hdb_3room,5120
+Commonwealth,hdb_4room,260
+Commonwealth,hdb_5room_exec,0
+Commonwealth,landed,0
+Dover,condo,2820
+Dover,hdb_1_2room,350
+Dover,hdb_3room,2100
+Dover,hdb_4room,2970
+Dover,hdb_5room_exec,2800
+Dover,landed,40
+Ghim Moh,condo,50
+Ghim Moh,hdb_1_2room,2050
+Ghim Moh,hdb_3room,4930
+Ghim Moh,hdb_4room,4690
+Ghim Moh,hdb_5room_exec,2120
+Ghim Moh,landed,0
+Holland Drive,condo,40
+Holland Drive,hdb_1_2room,530
+Holland Drive,hdb_3room,5610
+Holland Drive,hdb_4room,4200
+Holland Drive,hdb_5room_exec,2300
+Holland Drive,landed,0
+Kent Ridge,condo,0
+Kent Ridge,hdb_1_2room,0
+Kent Ridge,hdb_3room,0
+Kent Ridge,hdb_4room,0
+Kent Ridge,hdb_5room_exec,0
+Kent Ridge,landed,0
+Margaret Drive,condo,1150
+Margaret Drive,hdb_1_2room,400
+Margaret Drive,hdb_3room,1320
+Margaret Drive,hdb_4room,9700
+Margaret Drive,hdb_5room_exec,3490
+Margaret Drive,landed,20
+Mei Chin,condo,3230
+Mei Chin,hdb_1_2room,1590
+Mei Chin,hdb_3room,5150
+Mei Chin,hdb_4room,2700
+Mei Chin,hdb_5room_exec,2680
+Mei Chin,landed,220
+National University of S'pore,condo,240
+National University of S'pore,hdb_1_2room,0
+National University of S'pore,hdb_3room,0
+National University of S'pore,hdb_4room,0
+National University of S'pore,hdb_5room_exec,0
+National University of S'pore,landed,0
+One North,condo,650
+One North,hdb_1_2room,0
+One North,hdb_3room,0
+One North,hdb_4room,0
+One North,hdb_5room_exec,0
+One North,landed,80
+Pasir Panjang 1,condo,3100
+Pasir Panjang 1,hdb_1_2room,0
+Pasir Panjang 1,hdb_3room,0
+Pasir Panjang 1,hdb_4room,0
+Pasir Panjang 1,hdb_5room_exec,0
+Pasir Panjang 1,landed,1400
+Pasir Panjang 2,condo,1460
+Pasir Panjang 2,hdb_1_2room,0
+Pasir Panjang 2,hdb_3room,0
+Pasir Panjang 2,hdb_4room,0
+Pasir Panjang 2,hdb_5room_exec,0
+Pasir Panjang 2,landed,1590
+Port,condo,30
+Port,hdb_1_2room,0
+Port,hdb_3room,0
+Port,hdb_4room,0
+Port,hdb_5room_exec,0
+Port,landed,90
+Queensway,condo,250
+Queensway,hdb_1_2room,0
+Queensway,hdb_3room,0
+Queensway,hdb_4room,0
+Queensway,hdb_5room_exec,0
+Queensway,landed,20
+Singapore Polytechnic,condo,0
+Singapore Polytechnic,hdb_1_2room,0
+Singapore Polytechnic,hdb_3room,0
+Singapore Polytechnic,hdb_4room,0
+Singapore Polytechnic,hdb_5room_exec,0
+Singapore Polytechnic,landed,0
+Tanglin Halt,condo,220
+Tanglin Halt,hdb_1_2room,1160
+Tanglin Halt,hdb_3room,5500
+Tanglin Halt,hdb_4room,3050
+Tanglin Halt,hdb_5room_exec,660
+Tanglin Halt,landed,0

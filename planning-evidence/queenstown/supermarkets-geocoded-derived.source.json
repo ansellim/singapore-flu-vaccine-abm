@@ -1,0 +1,21 @@
+{
+  "source": "derived",
+  "derived_from": [
+    {
+      "file": "nea-supermarket-licences.csv",
+      "sha256": "a588eab004ba927adafc20949749ff47c1eff94833ad0a5b8c023d449788d54d"
+    }
+  ],
+  "script": "model/scripts/data/geocode_queenstown_inputs.py",
+  "geocoder": "https://www.onemap.gov.sg/api/common/elastic/search?searchVal=<query>&returnGeom=Y&getAddrDetails=Y&pageNum=1",
+  "retrieval_date": "2026-11-19",
+  "rows": 478,
+  "match_quality_counts": {
+    "exact": 266,
+    "ambiguous": 189,
+    "unmatched": 23
+  },
+  "method": "All rows of nea-supermarket-licences.csv, unchanged, plus OneMap geocode columns. Query is the 6-digit postal_code (zero padded); a result matches when POSTAL equals it. exact: all matches within 1 m; ambiguous: matches more than 1 m apart, first used; unmatched: no match. Coordinates are SVY21 (EPSG:3414) X/Y and WGS84 lat/long from OneMap.",
+  "sha256": "edf32aedd959a467f95790eccaa7c23f4024e29db69312b234db8f1e21479b62",
+  "purpose": "Licensed supermarket locations; clipped to Queenstown (plus buffer) by build_queenstown_geography.R."
+}

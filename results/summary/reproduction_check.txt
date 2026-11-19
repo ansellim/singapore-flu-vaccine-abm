@@ -1,0 +1,14 @@
+Reproduction check of the original community after the code changes for the
+full-scale extension (draw_infectors searching only infectious individuals;
+gathering groups). Run on EWA, 19 November 2026, about 13:48 SGT, with the
+code at commit 0865f7c synced to the server.
+
+For world_001 (original community), set R1, reference scenario, epidemic
+seeds 2,001,001 to 2,001,003, run_task() was rerun and its summary compared
+with the stored main-experiment chunk outputs/experiment/reference__R1__pop001.rds
+using identical() and all.equal() on the summary data frames:
+
+epidemic  identical  all.equal
+1         TRUE       TRUE
+2         TRUE       TRUE
+3         TRUE       TRUE

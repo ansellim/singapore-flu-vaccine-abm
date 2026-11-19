@@ -1,0 +1,9 @@
+{
+  "source": "https://data.gov.sg/api/action/datastore_search?resource_id=d_df70e7fa7d362c880d9647440f67babf&limit=1000",
+  "dataset_page": "https://data.gov.sg/datasets/d_df70e7fa7d362c880d9647440f67babf/view",
+  "title": "Resident Population Aged 65 Years and Over in Resident Households by Level of Difficulty in Performing Basic Activity in Specific Domain, Living Arrangement and Sex (Census of Population 2020)",
+  "retrieval_date": "2026-11-19",
+  "rows": 35,
+  "sha256": "c0216cb8b559f1f8ff7f6d948a5137a9111711490d6d6bbbae1dbb10ebeb2b0f",
+  "purpose": "Planning feasibility check; no model or analysis run."
+}

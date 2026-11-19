@@ -1,0 +1,19 @@
+# R and editor artifacts
+.Rhistory
+.RData
+.Rproj.user/
+renv/library/
+renv/staging/
+.DS_Store
+
+# Large simulation outputs are regenerated from code and kept on the servers;
+# only small summaries under results/summary/ are committed.
+outputs/
+results/raw/
+*.fst
+*.parquet
+!results/summary/*.parquet
+planning-evidence/queenstown/mp2019-land-use.geojson
+
+# PDF build intermediate
+report/.build_report.md

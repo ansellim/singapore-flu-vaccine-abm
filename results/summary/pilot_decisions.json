@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-19",
+  "pilot": "10 populations x 10 paired epidemics for each of the four reference-level calibrated sets (R1 to R4), Arms A, B, C with shared random numbers plus Arm C with independent random numbers",
+  "variance_components_file": "pilot_variance_components.csv",
+  "finding_mcse": "Within-population SD of the C minus B older-adult contrast 1.26 to 1.63 percentage points; between-population SD 0.19 to 0.47 points; 1 to 2 populations would meet MCSE <= 0.5 points at 20 epidemics each",
+  "finding_crn": "Shared random numbers reduced the variance of the paired contrast by 74.4% to 85.4% relative to independent random numbers",
+  "decision_runs": "30 populations x 50 paired epidemics per scenario and calibrated set: exceeds the precision target (expected MCSE about 0.1 points) so that household strata with few older adults are estimated with useful precision; compute cost is small",
+  "finding_outbreak_distribution": "Arm A resident attack proportion is not clearly bimodal because introductions continue for five days; 16% of runs fell below 5%, with the lowest density between 4% and 6%",
+  "decision_major_outbreak_threshold": "Major outbreak = resident infection attack proportion >= 5% over the 120-day follow-up, fixed before the main runs"
+}

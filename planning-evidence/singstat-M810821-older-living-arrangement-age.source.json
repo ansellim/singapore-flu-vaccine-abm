@@ -1,0 +1,8 @@
+{
+  "source": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/M810821",
+  "table_page": "https://tablebuilder.singstat.gov.sg/table/TS/M810821",
+  "title": "Residents Aged 65 Years And Over In Resident Households By Living Arrangement And Age Group, Annual",
+  "retrieval_date": "2026-11-19",
+  "sha256": "9c925024821e091914026cf4652a4dd3fec2c79722ed2892c3c23cc186c7c8dc",
+  "purpose": "Domestic worker parameterization; no model run."
+}

@@ -1,0 +1,10 @@
+{
+  "source": "https://api-open.data.gov.sg/v1/public/api/datasets/d_4a086da0a5553be1d89383cd90d07ecd/poll-download",
+  "dataset_page": "https://data.gov.sg/datasets/d_4a086da0a5553be1d89383cd90d07ecd/view",
+  "title": "Hawker Centres (GEOJSON)",
+  "retrieval_date": "2026-11-19",
+  "features": 129,
+  "sha256": "722ffdb3e68627c1724bc47f72889e09e790904ff23a1fa630595d76265f7451",
+  "purpose": "Hawker centre point locations: community mixing venues.",
+  "download_method": "GET source -> data.url (signed, expires in one hour) -> file stored unchanged"
+}

@@ -1,0 +1,9 @@
+{
+  "source": "https://data.gov.sg/api/action/datastore_search?resource_id=d_1ca435a3b62aafa6857d96368971765b&limit=10000",
+  "dataset_page": "https://data.gov.sg/datasets/d_1ca435a3b62aafa6857d96368971765b/view",
+  "title": "Resident Households by Planning Area of Residence and Tenancy (Census Of Population 2020)",
+  "retrieval_date": "2026-11-19",
+  "rows": 32,
+  "sha256": "6373df11a3ea4cec0da004380b3b4acd0b5b4385703c5febf6079fced75ffda4",
+  "purpose": "Queenstown households by tenancy (owner, tenant); context for rental flat occupancy."
+}

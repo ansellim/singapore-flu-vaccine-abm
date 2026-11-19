@@ -1,0 +1,9 @@
+{
+  "source": "https://data.gov.sg/api/action/datastore_search?resource_id=d_0ef47f84a0776b27010b242038ea2c6b&limit=10000",
+  "dataset_page": "https://data.gov.sg/datasets/d_0ef47f84a0776b27010b242038ea2c6b/view",
+  "title": "Resident Households by Planning Area of Residence and Household Size (Census Of Population 2020)",
+  "retrieval_date": "2026-11-19",
+  "rows": 32,
+  "sha256": "8786a25785878424e20e0b6df60fc46ee3814eb6ce3f3e0a8a6136184f7f34d7",
+  "purpose": "Queenstown household size distribution for household synthesis."
+}

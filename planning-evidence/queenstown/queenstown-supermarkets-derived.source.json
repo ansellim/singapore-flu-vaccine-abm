@@ -1,0 +1,24 @@
+{
+  "source": "derived",
+  "derived_from": [
+    {
+      "file": "supermarkets-geocoded-derived.csv",
+      "sha256": "edf32aedd959a467f95790eccaa7c23f4024e29db69312b234db8f1e21479b62"
+    },
+    {
+      "file": "mp2019-planning-area-boundary-nosea.geojson",
+      "sha256": "f23856251b467089f788d0fff72ef5a38e753f21aa69b4352401d7ed50d380cc"
+    },
+    {
+      "file": "mp2019-subzone-boundary-nosea.geojson",
+      "sha256": "77e30aa02b1784b649d9b6f23e3b2ebb825af787de554f3a3fb76bbee3013c42"
+    }
+  ],
+  "script": "model/scripts/data/build_queenstown_geography.R",
+  "crs": "EPSG:3414 (SVY21)",
+  "retrieval_date": "2026-11-19",
+  "method": "NEA supermarket licences from supermarkets-geocoded-derived.csv with match_quality exact or ambiguous, at OneMap SVY21 X/Y, kept when within 2000 m of the Queenstown planning-area polygon.",
+  "sha256": "f6d20d23bd817cabe1e5484ee81f0cf720d0b2b74b26fa93b1e4c4083f660a5e",
+  "purpose": "Supermarket locations: community mixing venues.",
+  "rows": 60
+}

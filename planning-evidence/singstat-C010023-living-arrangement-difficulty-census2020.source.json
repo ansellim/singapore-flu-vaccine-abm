@@ -1,0 +1,8 @@
+{
+  "source": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/C010023",
+  "table_page": "https://tablebuilder.singstat.gov.sg/table/TS/C010023",
+  "title": "Resident Population Aged 5 Years and Over in Resident Households by Living Arrangement, Level of Difficulty in Performing Basic Activities, Age Group and Sex",
+  "retrieval_date": "2026-11-19",
+  "sha256": "a1b6d5fcc0889d1c68656f4eeaade1cbb70a3025a3d7d5e41fee3dd90f3f88ac",
+  "purpose": "Domestic worker parameterization; no model run."
+}

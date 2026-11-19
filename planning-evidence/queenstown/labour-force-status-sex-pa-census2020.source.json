@@ -1,0 +1,9 @@
+{
+  "source": "https://data.gov.sg/api/action/datastore_search?resource_id=d_e9b1f437263fceebc0c1f0e60cd7b0f0&limit=10000",
+  "dataset_page": "https://data.gov.sg/datasets/d_e9b1f437263fceebc0c1f0e60cd7b0f0/view",
+  "title": "Resident Population Aged 15 Years and Over by Planning Area of Residence, Labour Force Status and Sex (Census of Population 2020)",
+  "retrieval_date": "2026-11-19",
+  "rows": 32,
+  "sha256": "394fc0c521d633f6289e66c8c8fd8f91fd5104b67af0d192435f493bade800ed",
+  "purpose": "Queenstown residents aged 15+ by labour force status and sex: employed fraction for workplace assignment."
+}

@@ -1,0 +1,10 @@
+{
+  "source": "https://api-open.data.gov.sg/v1/public/api/datasets/d_8594ae9ff96d0c708bc2af633048edfb/poll-download",
+  "dataset_page": "https://data.gov.sg/datasets/d_8594ae9ff96d0c708bc2af633048edfb/view",
+  "title": "Master Plan 2019 Subzone Boundary (No Sea) (GEOJSON)",
+  "retrieval_date": "2026-11-19",
+  "features": 332,
+  "sha256": "77e30aa02b1784b649d9b6f23e3b2ebb825af787de554f3a3fb76bbee3013c42",
+  "purpose": "Subzone polygons (MP2019); Queenstown subzones carry Census 2020 resident counts.",
+  "download_method": "GET source -> data.url (signed, expires in one hour) -> file stored unchanged"
+}

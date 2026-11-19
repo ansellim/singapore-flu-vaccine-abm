@@ -1,0 +1,17 @@
+abm_check() on world 1 (Arm C unless stated), tau = 0.30, h = 1.0, t_max = 310 half-day steps
+population is conserved at every step                ok   min 5255, max 5255, expected 5255
+recovered count never falls                          ok   smallest change 0
+susceptible count never rises                        ok   largest change 0
+same seed reproduces the run                         ok   compared S, I and R at every step
+a different seed changes the run                     ok   final size 1639 against 1118
+zero transmission probability infects nobody         ok   1017 infected at the start, 1017 ever infected
+agents stay inside the box                           ok   0 agents outside
+agents do not pile up on the wall                    ok   0 agents sitting exactly on a boundary
+population is conserved under broad adult allocation (Arm B) ok   min 5255, max 5255, expected 5255
+recovered count never falls under broad adult allocation (Arm B) ok   smallest change 0
+population is conserved under existing vaccination only (Arm A) ok   min 5255, max 5255, expected 5255
+recovered count never falls under existing vaccination only (Arm A) ok   smallest change 0
+population is conserved under open boundary          ok   min 5255, max 5255, expected 5255
+recovered count never falls under open boundary      ok   smallest change 0
+
+14 of 14 checks passed

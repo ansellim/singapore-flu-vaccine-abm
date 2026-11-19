@@ -1,0 +1,9 @@
+{
+  "source": "https://data.gov.sg/api/action/datastore_search?resource_id=d_b19c5bc4f6916b5481f6531918440fe6&limit=1000",
+  "dataset_page": "https://data.gov.sg/datasets/d_b19c5bc4f6916b5481f6531918440fe6/view",
+  "title": "Resident Students Aged 5 Years and Over by Planning Area of Residence and Level of Education Attending (Census of Population 2020)",
+  "retrieval_date": "2026-11-19",
+  "rows": 32,
+  "sha256": "e786f623f7a263e86938e78b3186686ac887771fb09f3e4df5328ddf3cb86911",
+  "purpose": "Planning feasibility check; no model or analysis run."
+}

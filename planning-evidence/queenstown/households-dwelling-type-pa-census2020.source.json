@@ -1,0 +1,9 @@
+{
+  "source": "https://data.gov.sg/api/action/datastore_search?resource_id=d_388f9c61f437a588b47b008a012d13fa&limit=10000",
+  "dataset_page": "https://data.gov.sg/datasets/d_388f9c61f437a588b47b008a012d13fa/view",
+  "title": "Resident Households by Planning Area of Residence and Type of Dwelling (Census of Population 2020)",
+  "retrieval_date": "2026-11-19",
+  "rows": 32,
+  "sha256": "0da8590768bea56be48b95d7e04592ee2405e2920a0f62d60d746ed926861020",
+  "purpose": "Queenstown households by type of dwelling: HDB flat-type mix and number of private (condominium, landed) households."
+}

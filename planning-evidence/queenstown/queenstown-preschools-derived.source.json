@@ -1,0 +1,24 @@
+{
+  "source": "derived",
+  "derived_from": [
+    {
+      "file": "ecda-preschools-location.geojson",
+      "sha256": "56539ec2f0a5d57e42babe29960dcc6708222ba09c046c59a26cb64f805436bb"
+    },
+    {
+      "file": "mp2019-planning-area-boundary-nosea.geojson",
+      "sha256": "f23856251b467089f788d0fff72ef5a38e753f21aa69b4352401d7ed50d380cc"
+    },
+    {
+      "file": "mp2019-subzone-boundary-nosea.geojson",
+      "sha256": "77e30aa02b1784b649d9b6f23e3b2ebb825af787de554f3a3fb76bbee3013c42"
+    }
+  ],
+  "script": "model/scripts/data/build_queenstown_geography.R",
+  "crs": "EPSG:3414 (SVY21)",
+  "retrieval_date": "2026-11-19",
+  "method": "ECDA preschool points (Description HTML attribute table, if present, parsed into columns), Z dropped, transformed to EPSG:3414, kept when within 2000 m of the Queenstown planning-area polygon. in_queenstown and dist_to_qt_boundary_m as for schools.",
+  "sha256": "69c381d3887babe70d3d19ff56858c01b03d4ec5e4cfdf7455905d74d1cef996",
+  "purpose": "Preschool locations for assignment of Queenstown children aged under 7.",
+  "rows": 253
+}

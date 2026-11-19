@@ -1,0 +1,16 @@
+{
+  "source": "derived",
+  "derived_from": [
+    {
+      "file": "mp2019-planning-area-boundary-nosea.geojson",
+      "sha256": "f23856251b467089f788d0fff72ef5a38e753f21aa69b4352401d7ed50d380cc"
+    }
+  ],
+  "script": "model/scripts/data/build_queenstown_geography.R",
+  "crs": "EPSG:3414 (SVY21)",
+  "retrieval_date": "2026-11-19",
+  "method": "Feature with PLN_AREA_N == 'QUEENSTOWN' from the MP2019 planning-area layer, Z dropped, made valid, transformed to EPSG:3414.",
+  "sha256": "4bb0af8e4bc4523dfcb2bdee6bce4bc8dfc9da8c9d93636ad17153e5890b9b86",
+  "purpose": "Queenstown study-area boundary.",
+  "features": 1
+}

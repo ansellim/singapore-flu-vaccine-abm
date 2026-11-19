@@ -1,0 +1,10 @@
+{
+  "source": "https://api-open.data.gov.sg/v1/public/api/datasets/d_688b934f82c1059ed0a6993d2a829089/poll-download",
+  "dataset_page": "https://data.gov.sg/datasets/d_688b934f82c1059ed0a6993d2a829089/view",
+  "title": "General information of schools",
+  "retrieval_date": "2026-11-19",
+  "rows": 337,
+  "sha256": "29eef695d485844a062b5aaa8164fe770c24e99e6f20198db88ccb46202bec9b",
+  "purpose": "MOE schools with postal codes and main level; geocoded for school locations.",
+  "download_method": "GET source -> data.url (signed, expires in one hour) -> file stored unchanged"
+}

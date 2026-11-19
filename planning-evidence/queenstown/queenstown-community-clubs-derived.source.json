@@ -1,0 +1,24 @@
+{
+  "source": "derived",
+  "derived_from": [
+    {
+      "file": "pa-community-clubs.geojson",
+      "sha256": "d6acbfc863db3b9adb7fed423921acdf87c5a79b4ec60114d2dcbcbd140ecfa6"
+    },
+    {
+      "file": "mp2019-planning-area-boundary-nosea.geojson",
+      "sha256": "f23856251b467089f788d0fff72ef5a38e753f21aa69b4352401d7ed50d380cc"
+    },
+    {
+      "file": "mp2019-subzone-boundary-nosea.geojson",
+      "sha256": "77e30aa02b1784b649d9b6f23e3b2ebb825af787de554f3a3fb76bbee3013c42"
+    }
+  ],
+  "script": "model/scripts/data/build_queenstown_geography.R",
+  "crs": "EPSG:3414 (SVY21)",
+  "retrieval_date": "2026-11-19",
+  "method": "People's Association community club points (Description HTML attribute table, if present, parsed into columns), Z dropped, transformed to EPSG:3414, kept when within 2000 m of the Queenstown planning-area polygon; filter in_queenstown == TRUE for venues inside Queenstown.",
+  "sha256": "5b0f2b53ac7891653c988cf3e1a414556f7b2de58906097398d9b0062c7d9137",
+  "purpose": "People's Association community club locations: community mixing venues.",
+  "rows": 12
+}

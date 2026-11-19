@@ -1,0 +1,24 @@
+{
+  "source": "derived",
+  "derived_from": [
+    {
+      "file": "moe-schools-geocoded-derived.csv",
+      "sha256": "56f4ee93c1c85d14610c4b98b3648976f29c7851a7d213a14ead43cab3759b84"
+    },
+    {
+      "file": "mp2019-planning-area-boundary-nosea.geojson",
+      "sha256": "f23856251b467089f788d0fff72ef5a38e753f21aa69b4352401d7ed50d380cc"
+    },
+    {
+      "file": "mp2019-subzone-boundary-nosea.geojson",
+      "sha256": "77e30aa02b1784b649d9b6f23e3b2ebb825af787de554f3a3fb76bbee3013c42"
+    }
+  ],
+  "script": "model/scripts/data/build_queenstown_geography.R",
+  "crs": "EPSG:3414 (SVY21)",
+  "retrieval_date": "2026-11-19",
+  "method": "MOE schools from moe-schools-geocoded-derived.csv with match_quality exact or ambiguous, located at OneMap SVY21 X/Y, kept when within 2000 m of the Queenstown planning-area polygon (st_buffer 2000 m, planar). in_queenstown flags points inside the polygon; dist_to_qt_boundary_m is 0 inside. Subset of MOE columns kept (school_name, address, postal_code, mainlevel_code, type_code, nature_code, session_code, zone_code, dgp_code).",
+  "sha256": "5b3e2a0ff67e3378be334252997ae8ce8ba2dcc4803764d6efbf8e76671d92aa",
+  "purpose": "School locations for school assignment of Queenstown children.",
+  "rows": 32
+}

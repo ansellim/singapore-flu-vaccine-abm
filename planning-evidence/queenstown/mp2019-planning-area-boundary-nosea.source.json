@@ -1,0 +1,10 @@
+{
+  "source": "https://api-open.data.gov.sg/v1/public/api/datasets/d_4765db0e87b9c86336792efe8a1f7a66/poll-download",
+  "dataset_page": "https://data.gov.sg/datasets/d_4765db0e87b9c86336792efe8a1f7a66/view",
+  "title": "Master Plan 2019 Planning Area Boundary (No Sea)",
+  "retrieval_date": "2026-11-19",
+  "features": 55,
+  "sha256": "f23856251b467089f788d0fff72ef5a38e753f21aa69b4352401d7ed50d380cc",
+  "purpose": "Official MP2019 planning-area polygons; Queenstown boundary for clipping.",
+  "download_method": "GET source -> data.url (signed, expires in one hour) -> file stored unchanged"
+}

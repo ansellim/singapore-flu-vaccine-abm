@@ -1,0 +1,10 @@
+{
+  "source": "https://api-open.data.gov.sg/v1/public/api/datasets/d_17f5382f26140b1fdae0ba2ef6239d2f/poll-download",
+  "dataset_page": "https://data.gov.sg/datasets/d_17f5382f26140b1fdae0ba2ef6239d2f/view",
+  "title": "HDB Property Information",
+  "retrieval_date": "2026-11-19",
+  "rows": 13392,
+  "sha256": "d528ea2d6fc3f57ab4c8199ed15ea5eaac0109fe659e09ef91910dfe417af2eb",
+  "purpose": "Block-level HDB dwelling units by flat type; residential blocks are household locations.",
+  "download_method": "GET source -> data.url (signed, expires in one hour) -> file stored unchanged"
+}

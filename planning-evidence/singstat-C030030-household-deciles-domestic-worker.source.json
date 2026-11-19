@@ -1,0 +1,8 @@
+{
+  "source": "https://tablebuilder.singstat.gov.sg/api/table/tabledata/C030030",
+  "table_page": "https://tablebuilder.singstat.gov.sg/table/TS/C030030",
+  "title": "Characteristics of Resident Households by Deciles (Ranked by Household Market Income), 2015 - 2025",
+  "retrieval_date": "2026-11-19",
+  "sha256": "3d2b79924c26e261bcb957e326df47ba72814f9622482545618bdaef17b03a5c",
+  "purpose": "Domestic worker parameterization; no model run."
+}

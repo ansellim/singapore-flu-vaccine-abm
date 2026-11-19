@@ -1,0 +1,9 @@
+{
+  "source": "https://data.gov.sg/api/action/datastore_search?resource_id=d_5105c8c24199312306d1dd38bbc560a8&limit=1000",
+  "dataset_page": "https://data.gov.sg/datasets/d_5105c8c24199312306d1dd38bbc560a8/view",
+  "title": "Total Foreign Workforce (MOM)",
+  "retrieval_date": "2026-11-19",
+  "rows": 6,
+  "sha256": "577f553a1bfa6966facdaa3e53ace06def44ce17c2f7b6b9e0035f09a69adcc8",
+  "purpose": "Planning feasibility check; no model or analysis run."
+}

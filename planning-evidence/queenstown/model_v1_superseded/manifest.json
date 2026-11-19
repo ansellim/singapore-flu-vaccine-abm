@@ -1,0 +1,112 @@
+{
+  "script": "model/scripts/data/derive_queenstown.R",
+  "created": "2026-11-19 13:39 +08",
+  "seed": 20201,
+  "inputs": [
+    {
+      "file": "queenstown/queenstown-planning-area-derived.geojson",
+      "sha256": "4bb0af8e4bc4523dfcb2bdee6bce4bc8dfc9da8c9d93636ad17153e5890b9b86"
+    },
+    {
+      "file": "queenstown/queenstown-subzones-derived.geojson",
+      "sha256": "eb58e10ee356d67db9c26b461b98a016c4112bdfcde0c6d088b0af2d26c646ad"
+    },
+    {
+      "file": "age-sex-2020.json",
+      "sha256": "32c11a4e538486429598fb4af2ca2327b439cedc66caa0c20e35e4cef17c1813"
+    },
+    {
+      "file": "queenstown/population-dwelling-type-subzone-census2020.json",
+      "sha256": "e00dcf8b5dc72a68edfe269ceb5d48dd049d045ce6bba465a99a2f3c07db7bb7"
+    },
+    {
+      "file": "queenstown/households-dwelling-type-pa-census2020.json",
+      "sha256": "0da8590768bea56be48b95d7e04592ee2405e2920a0f62d60d746ed926861020"
+    },
+    {
+      "file": "queenstown/households-size-pa-census2020.json",
+      "sha256": "8786a25785878424e20e0b6df60fc46ee3814eb6ce3f3e0a8a6136184f7f34d7"
+    },
+    {
+      "file": "queenstown/queenstown-hdb-residential-blocks-derived.csv",
+      "sha256": "20cc55b05df6928a31ef268a0b636edce1fd2d46a2a0c8ef7914583011e03537"
+    },
+    {
+      "file": "queenstown/queenstown-land-use-derived.geojson",
+      "sha256": "2b7ff8c7b94eb8e72d79d59054207cb6a52d2b6be1e6585aee4b1f1004cfc402"
+    },
+    {
+      "file": "queenstown/queenstown-schools-derived.csv",
+      "sha256": "5b3e2a0ff67e3378be334252997ae8ce8ba2dcc4803764d6efbf8e76671d92aa"
+    },
+    {
+      "file": "queenstown/queenstown-preschools-derived.csv",
+      "sha256": "69c381d3887babe70d3d19ff56858c01b03d4ec5e4cfdf7455905d74d1cef996"
+    },
+    {
+      "file": "queenstown/queenstown-hawker-centres-derived.csv",
+      "sha256": "1302c893a779c9c6c841e6f18eab2aecb3b088b01e3baafd40d1a3097e13a84b"
+    },
+    {
+      "file": "queenstown/queenstown-community-clubs-derived.csv",
+      "sha256": "5b0f2b53ac7891653c988cf3e1a414556f7b2de58906097398d9b0062c7d9137"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "age-subzone.csv",
+      "rows": 285,
+      "sha256": "60ef7710e85a6ed936636973966ef90f74a7c0eaedd49208396e30995f1450a9"
+    },
+    {
+      "file": "dwelling-households.csv",
+      "rows": 6,
+      "sha256": "51003dce551f974298e9854498cbde3e1cb37c8bf4a37c3cebe34da5ef9dea27"
+    },
+    {
+      "file": "dwelling-subzone.csv",
+      "rows": 90,
+      "sha256": "d6bc87e8470770a0da449583e71b8f060c511ef55c956d179a93f6d1ac156fcd"
+    },
+    {
+      "file": "hdb-blocks.csv",
+      "rows": 242,
+      "sha256": "fb1e69c9c06f992832e99a80ec05b2b136414722b183f55123534cab0a41a191"
+    },
+    {
+      "file": "household-size.csv",
+      "rows": 8,
+      "sha256": "3f11f9b7bfb01a3fc4f2398f293d75fee0d0c370b9935482756f816125c8772d"
+    },
+    {
+      "file": "outline.csv",
+      "rows": 3363,
+      "sha256": "4b9382fd0e0e805f86e8781f0ab07fb96bfbdb81e71fa23eb1ee4424256ce73b"
+    },
+    {
+      "file": "private-points.csv",
+      "rows": 24683,
+      "sha256": "36f27ad3c6c60a651735cbbccbd5d95417af4c134873871691e2963c31610c3c"
+    },
+    {
+      "file": "sites.csv",
+      "rows": 152,
+      "sha256": "7ca6f1d8127030cf650ca0dc870c58f79ddeb15af64287799968f42d754ead63"
+    },
+    {
+      "file": "subzones.csv",
+      "rows": 15,
+      "sha256": "dabda5c64b5c5834910feb8d87e437fa93ba99f5d76465927cd1b8b302078b90"
+    },
+    {
+      "file": "venues.csv",
+      "rows": 15,
+      "sha256": "236bf06e80ded6aac64d523622d742a06a04924009f24aafcc0e36fdd9e1d539"
+    },
+    {
+      "file": "workplace-points.csv",
+      "rows": 37717,
+      "sha256": "72dd8430f59196001771ddb9eb8ecc525a491ef0cc2866989226b30e114e7ef0"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+% LaTeX look: Latin Modern text and math
+\usepackage{unicode-math}
+\setmainfont{Latin Modern Roman}
+\setsansfont{Latin Modern Sans}
+\setmonofont{Latin Modern Mono}[Scale=0.95]
+\setmathfont{Latin Modern Math}
+\usepackage{newunicodechar}
+\newunicodechar{τ}{\ensuremath{\tau}}
+\newunicodechar{λ}{\ensuremath{\lambda}}
+\newunicodechar{γ}{\ensuremath{\gamma}}
+\newunicodechar{Δ}{\ensuremath{\Delta}}
+\newunicodechar{−}{\ensuremath{-}}
+\newunicodechar{×}{\ensuremath{\times}}
+\newunicodechar{≈}{\ensuremath{\approx}}
+\newunicodechar{√}{\ensuremath{\surd}}
+\newunicodechar{²}{\textsuperscript{2}}
+\usepackage{microtype}
+\usepackage{float}
+\floatplacement{figure}{H}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{etoolbox}
+\AtBeginEnvironment{longtable}{\footnotesize}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.1}
+\usepackage{fvextra}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+\fvset{breaklines=true,fontsize=\scriptsize}
+\RecustomVerbatimEnvironment{verbatim}{Verbatim}{breaklines,fontsize=\scriptsize}
+\usepackage{xurl}
+\setlength{\emergencystretch}{3em}
+\captionsetup[figure]{labelformat=empty}

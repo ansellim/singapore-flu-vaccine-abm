@@ -1,0 +1,9 @@
+{
+  "source": "https://data.gov.sg/api/action/datastore_search?resource_id=d_39e9c4b81b233a7aecf6b762ad93e4a0&limit=1000",
+  "dataset_page": "https://data.gov.sg/datasets/d_39e9c4b81b233a7aecf6b762ad93e4a0/view",
+  "title": "Resident Households by Household Living Arrangement and Household Size (Census of Population 2020)",
+  "retrieval_date": "2026-11-19",
+  "rows": 20,
+  "sha256": "0b3d93f726b7b0f0344ec3d6b0926ae1dc9b7f019435ab76cc7c76d7d9fcb3a8",
+  "purpose": "Planning feasibility check; no model or analysis run."
+}

@@ -1,0 +1,9 @@
+{
+  "source": "https://data.gov.sg/api/action/datastore_search?resource_id=d_f757d4b9db7c8977def084f0a51a46b5&limit=1000",
+  "dataset_page": "https://data.gov.sg/datasets/d_f757d4b9db7c8977def084f0a51a46b5/view",
+  "title": "Foreign Workforce Excluding Foreign Domestic Workers (MOM)",
+  "retrieval_date": "2026-11-19",
+  "rows": 6,
+  "sha256": "a68b901644f63856e6e6c5e100659a5b4243c0fa9633391e87592afcf5b7493d",
+  "purpose": "Planning feasibility check; no model or analysis run."
+}

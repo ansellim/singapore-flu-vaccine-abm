@@ -1,0 +1,9 @@
+{
+  "source": "https://data.gov.sg/api/action/datastore_search?resource_id=d_6fce8e61bf5c5ce7ad36f770cb0faf78&limit=10000",
+  "dataset_page": "https://data.gov.sg/datasets/d_6fce8e61bf5c5ce7ad36f770cb0faf78/view",
+  "title": "Resident Students Aged 5 Years and Over by Planning Area of Residence and Travelling Time to School (Census of Population 2020)",
+  "retrieval_date": "2026-11-19",
+  "rows": 32,
+  "sha256": "430896ed13616cb45c31718e804dc941cac086df587ce7563ba477febdeae949",
+  "purpose": "Queenstown resident students by travelling time to school: proxy for schooling inside versus outside the planning area."
+}

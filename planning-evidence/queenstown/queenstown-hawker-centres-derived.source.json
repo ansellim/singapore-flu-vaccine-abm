@@ -1,0 +1,24 @@
+{
+  "source": "derived",
+  "derived_from": [
+    {
+      "file": "nea-hawker-centres.geojson",
+      "sha256": "722ffdb3e68627c1724bc47f72889e09e790904ff23a1fa630595d76265f7451"
+    },
+    {
+      "file": "mp2019-planning-area-boundary-nosea.geojson",
+      "sha256": "f23856251b467089f788d0fff72ef5a38e753f21aa69b4352401d7ed50d380cc"
+    },
+    {
+      "file": "mp2019-subzone-boundary-nosea.geojson",
+      "sha256": "77e30aa02b1784b649d9b6f23e3b2ebb825af787de554f3a3fb76bbee3013c42"
+    }
+  ],
+  "script": "model/scripts/data/build_queenstown_geography.R",
+  "crs": "EPSG:3414 (SVY21)",
+  "retrieval_date": "2026-11-19",
+  "method": "NEA hawker centre points (Description HTML attribute table, if present, parsed into columns), Z dropped, transformed to EPSG:3414, kept when within 2000 m of the Queenstown planning-area polygon; filter in_queenstown == TRUE for venues inside Queenstown.",
+  "sha256": "1302c893a779c9c6c841e6f18eab2aecb3b088b01e3baafd40d1a3097e13a84b",
+  "purpose": "NEA hawker centre locations: community mixing venues.",
+  "rows": 29
+}

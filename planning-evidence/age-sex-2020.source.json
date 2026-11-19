@@ -1,0 +1,7 @@
+{
+  "source": "https://data.gov.sg/api/action/datastore_search?resource_id=d_d95ae740c0f8961a0b10435836660ce0&limit=1000",
+  "retrieval_date": "2026-11-19",
+  "rows": 388,
+  "sha256": "32c11a4e538486429598fb4af2ca2327b439cedc66caa0c20e35e4cef17c1813",
+  "purpose": "Planning feasibility check; no model or analysis run."
+}

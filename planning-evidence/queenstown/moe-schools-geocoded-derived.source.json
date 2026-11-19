@@ -1,0 +1,20 @@
+{
+  "source": "derived",
+  "derived_from": [
+    {
+      "file": "moe-general-information-of-schools.csv",
+      "sha256": "29eef695d485844a062b5aaa8164fe770c24e99e6f20198db88ccb46202bec9b"
+    }
+  ],
+  "script": "model/scripts/data/geocode_queenstown_inputs.py",
+  "geocoder": "https://www.onemap.gov.sg/api/common/elastic/search?searchVal=<query>&returnGeom=Y&getAddrDetails=Y&pageNum=1",
+  "retrieval_date": "2026-11-19",
+  "rows": 58,
+  "match_quality_counts": {
+    "ambiguous": 33,
+    "exact": 25
+  },
+  "method": "Rows of moe-general-information-of-schools.csv with dgp_code (planning area) in ['BUKIT BATOK', 'BUKIT MERAH', 'BUKIT TIMAH', 'CLEMENTI', 'JURONG EAST', 'NEWTON', 'ORCHARD', 'QUEENSTOWN', 'RIVER VALLEY', 'SINGAPORE RIVER', 'SOUTHERN ISLANDS', 'TANGLIN', 'WESTERN ISLANDS'], unchanged, plus OneMap geocode columns. Query is the 6-digit postal_code (zero padded); a result matches when POSTAL equals it. exact: all matches within 1 m; ambiguous: matches more than 1 m apart, first used; unmatched: no match. Coordinates are SVY21 (EPSG:3414) X/Y and WGS84 lat/long from OneMap.",
+  "sha256": "56f4ee93c1c85d14610c4b98b3648976f29c7851a7d213a14ead43cab3759b84",
+  "purpose": "MOE school locations; clipped to Queenstown (plus buffer) by build_queenstown_geography.R."
+}

@@ -1,0 +1,9 @@
+{
+  "source": "https://data.gov.sg/api/action/datastore_search?resource_id=d_46ff0d0429b30ac8d76d6778df32eb84&limit=1000",
+  "dataset_page": "https://data.gov.sg/datasets/d_46ff0d0429b30ac8d76d6778df32eb84/view",
+  "title": "Resident Households by Household Size and Floor Area of Residence (Census of Population 2020)",
+  "retrieval_date": "2026-11-19",
+  "rows": 9,
+  "sha256": "4cdfd188acb5fcb8799f076c9665498955a4ab3345bca4beedcc2b557dc7e354",
+  "purpose": "Planning feasibility check; no model or analysis run."
+}

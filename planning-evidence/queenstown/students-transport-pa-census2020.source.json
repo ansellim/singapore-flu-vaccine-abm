@@ -1,0 +1,9 @@
+{
+  "source": "https://data.gov.sg/api/action/datastore_search?resource_id=d_9eaccc6cc0f257cfd74d5c1ceb0fb663&limit=10000",
+  "dataset_page": "https://data.gov.sg/datasets/d_9eaccc6cc0f257cfd74d5c1ceb0fb663/view",
+  "title": "Resident Students Aged 5 Years and Over by Planning Area of Residence and Usual Mode of Transport to School (Census of Population 2020)",
+  "retrieval_date": "2026-11-19",
+  "rows": 32,
+  "sha256": "48b4366bed1370fbec78384e0aae4a6006089fec0ad3a56d22a3be67ffe6fd48",
+  "purpose": "Queenstown resident students by usual mode of transport to school: school catchment context."
+}

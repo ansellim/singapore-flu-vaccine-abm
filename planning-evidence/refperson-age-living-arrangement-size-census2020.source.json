@@ -1,0 +1,9 @@
+{
+  "source": "https://data.gov.sg/api/action/datastore_search?resource_id=d_012c5a2703fb6428d59457ff0ec4cce4&limit=1000",
+  "dataset_page": "https://data.gov.sg/datasets/d_012c5a2703fb6428d59457ff0ec4cce4/view",
+  "title": "Resident Households by Age Group of Household Reference Person & Household Living Arrangement and Household Size (Census of Population 2020)",
+  "retrieval_date": "2026-11-19",
+  "rows": 30,
+  "sha256": "309cb35d7c12e842ce80a7e357b46790fc7cc269f6d93e7f78316549e62451f9",
+  "purpose": "Planning feasibility check; no model or analysis run."
+}

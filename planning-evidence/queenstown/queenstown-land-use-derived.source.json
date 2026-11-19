@@ -1,0 +1,20 @@
+{
+  "source": "derived",
+  "derived_from": [
+    {
+      "file": "mp2019-land-use.geojson",
+      "sha256": "916d45da449b8299162116f21d8f149d0da1f92d0188ff2946492ffc7ef42677"
+    },
+    {
+      "file": "mp2019-planning-area-boundary-nosea.geojson",
+      "sha256": "f23856251b467089f788d0fff72ef5a38e753f21aa69b4352401d7ed50d380cc"
+    }
+  ],
+  "script": "model/scripts/data/build_queenstown_geography.R",
+  "crs": "EPSG:3414 (SVY21)",
+  "retrieval_date": "2026-11-19",
+  "method": "MP2019 land-use polygons (columns LU_DESC, LU_TEXT, GPR, OBJECTID) transformed to EPSG:3414, made valid, intersected with the Queenstown planning-area polygon (planar, sf_use_s2(FALSE)); only polygon parts kept; slivers of 1 m2 or less dropped; area_m2 is the clipped area.",
+  "sha256": "2b7ff8c7b94eb8e72d79d59054207cb6a52d2b6be1e6585aee4b1f1004cfc402",
+  "purpose": "Queenstown land-use zoning for workplace and amenity placement.",
+  "features": 1965
+}
